@@ -40,6 +40,7 @@
     <div class="container">
             <br>
               <h4 class="mb-3">Registro de usuario</h4>
+
               <form class="needs-validation" novalidate>
                 <div class="row g-3">
                   <div class="col-sm-6">
@@ -79,7 +80,7 @@
       
                   <div class="col-12">
                     <label for="address" class="form-label">Dirección de residencia</label>
-                    <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección" required = "true">
+                    <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección" value = "" required>
                     <div class="invalid-feedback">
                       Please enter your shipping address.
                     </div>
@@ -104,9 +105,10 @@
                 </div>
                 <hr>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-primary" type="button">Finalizar con el registro</button>
+                    <button class="btn btn-primary" type="submit">Finalizar con el registro</button>
                   </div>
               </form>
+
             </div>
           </div>
         </main>

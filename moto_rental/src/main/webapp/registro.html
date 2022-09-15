@@ -38,7 +38,7 @@
     </ul>
 
     <div class="container">
-            <hr>
+            <br>
               <h4 class="mb-3">Registro de usuario</h4>
               <form class="needs-validation" novalidate>
                 <div class="row g-3">
@@ -79,7 +79,7 @@
       
                   <div class="col-12">
                     <label for="address" class="form-label">Dirección de residencia</label>
-                    <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección" required>
+                    <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección" required = "true">
                     <div class="invalid-feedback">
                       Please enter your shipping address.
                     </div>
@@ -91,19 +91,38 @@
                   </div>
             
                   <div class="col-md-4">
-                    <label for="state" class="form-label">Municipio</label>
+                    <label for="state" class="form-label">Departamento</label>
                     <select class="form-select" id="state" required>
-                      <option value="">Elige</option>
-                      <option>Bogota</option>
-                      <option>Cundinamarca</option>
+                      <option value="">Eliga su departamento de residencia...</option>
+                      <option>Amazonas</option>
+                      <option>Antioquia</option>
+                      <option>Etc</option>
                     </select>
                     <div class="invalid-feedback">
                       Please provide a valid state.
                     </div>
                 </div>
                 <hr>
-                <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Finalizar con el registro</button>
+                  </div>
               </form>
             </div>
           </div>
         </main>
+        <hr>
+        <footer class="container py-1">
+            <div class="row">
+              <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted">&copy; 2022</small>
+              </div>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="home.html">Home</a></li>
+                  <li><a class="link-secondary" href="registro.html">Registrese</a></li>
+                  <li><a class="link-secondary" href="index.html">Equipo</a></li>
+                  <li><a class="link-secondary" href="#">Terms</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+</body>        
